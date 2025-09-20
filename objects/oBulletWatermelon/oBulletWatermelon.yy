@@ -6,8 +6,8 @@
   "name":"oBulletWatermelon",
   "overriddenProperties":[],
   "parent":{
-    "name":"Vegetables",
-    "path":"folders/Vegetables.yy",
+    "name":"Ammo",
+    "path":"folders/Ammo.yy",
   },
   "parentObjectId":{
     "name":"oBullet",

@@ -6,8 +6,8 @@
   "name":"oSolidWall",
   "overriddenProperties":[],
   "parent":{
-    "name":"TGA",
-    "path":"TGA.yyp",
+    "name":"Obsticles",
+    "path":"folders/Obsticles.yy",
   },
   "parentObjectId":{
     "name":"oWall",

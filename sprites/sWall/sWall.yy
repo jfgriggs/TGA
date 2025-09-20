@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"TGA",
-    "path":"TGA.yyp",
+    "name":"Obsticles",
+    "path":"folders/Obsticles.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

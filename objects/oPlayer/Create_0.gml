@@ -24,6 +24,8 @@
 		
 	// Add weapons to player inventory
 	array_push(global.PlayerWeapons, global.WeaponList.cannon);
+	array_push(global.PlayerWeapons, global.WeaponList.shotgun);
+	array_push(global.PlayerWeapons, global.WeaponList.crossbow);
 	array_push(global.PlayerWeapons, global.WeaponList.pumpkin);
 	array_push(global.PlayerWeapons, global.WeaponList.tomato);
 	array_push(global.PlayerWeapons, global.WeaponList.potato);

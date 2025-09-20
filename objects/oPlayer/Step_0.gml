@@ -84,21 +84,21 @@ swapKeyPressed = mouse_check_button_pressed(mb_right)
 		// Reset timer
 		shootTimer = weapon.cooldown;
 		
+		// Create the bullet
 		var _xOffset = lengthdir_x(weapon.length + weaponOffsetDist, aimDir);
 		var _yOffset = lengthdir_y(weapon.length + weaponOffsetDist, aimDir);
-		var  _bulletInst = instance_create_depth(x + _xOffset, centerY + _yOffset, depth - 100, weapon.bulletObj);
-		show_debug_message("Weapon length: " + string(weapon.length)
-			+ " Aim Direction: " + string(aimDir)
-			+ " X Offset: " + string(_xOffset)
-			+ " Y Offset: " + string(_yOffset)
-			+ " X: " + string(x)
-			+ " Y: " + string(y)
-		);
 		
-		// Change bullet's direction
-		with(_bulletInst) {
-			dir = other.aimDir;
-			
+		var _spread = weapon.spread;
+		var _spreadDiv = _spread / max(weapon.bulletNum - 1, 1);
+		
+		// Create the correct number of bullets
+		for (var i = 0; i < weapon.bulletNum; i++) {
+			var  _bulletInst = instance_create_depth(x + _xOffset, centerY + _yOffset, depth - 100, weapon.bulletObj);
+		
+			// Change bullet's direction
+			with(_bulletInst) {
+				dir = other.aimDir - _spread/2 + _spreadDiv*i;
+			}
 		}
 	}
 #endregion

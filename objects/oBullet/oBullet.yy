@@ -9,8 +9,8 @@
   "name":"oBullet",
   "overriddenProperties":[],
   "parent":{
-    "name":"Vegetables",
-    "path":"folders/Vegetables.yy",
+    "name":"Ammo",
+    "path":"folders/Ammo.yy",
   },
   "parentObjectId":null,
   "persistent":false,
