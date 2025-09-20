@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"oBullet",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oEnemy",
+  "eventList":[],
   "managed":true,
-  "name":"oBullet",
+  "name":"oEnemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"Ammo",
-    "path":"folders/Ammo.yy",
+    "name":"Enemies",
+    "path":"folders/Enemies.yy",
   },
   "parentObjectId":{
-    "name":"oDamageEnemy",
-    "path":"objects/oDamageEnemy/oDamageEnemy.yy",
+    "name":"oEnemyParent",
+    "path":"objects/oEnemyParent/oEnemyParent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBullet",
-    "path":"sprites/sBullet/sBullet.yy",
+    "name":"sEnemy",
+    "path":"sprites/sEnemy/sEnemy.yy",
   },
   "spriteMaskId":null,
   "visible":true,
