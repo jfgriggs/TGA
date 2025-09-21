@@ -1,19 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"oBulletPotato",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oCarrot",
+  "eventList":[],
   "managed":true,
-  "name":"oBulletPotato",
+  "name":"oCarrot",
   "overriddenProperties":[],
   "parent":{
-    "name":"Ammo",
-    "path":"folders/Ammo.yy",
+    "name":"Vegetables",
+    "path":"folders/Vegetables.yy",
   },
   "parentObjectId":{
-    "name":"oBullet",
-    "path":"objects/oBullet/oBullet.yy",
+    "name":"oVegetable",
+    "path":"objects/oVegetable/oVegetable.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPotato",
-    "path":"sprites/sPotato/sPotato.yy",
+    "name":"sCarrot",
+    "path":"sprites/sCarrot/sCarrot.yy",
   },
   "spriteMaskId":null,
   "visible":true,

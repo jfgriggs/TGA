@@ -1,0 +1,7 @@
+// Inherit the parent event
+event_inherited();
+
+// Change properties
+spd = 2;
+maxDist = 400;
+rot = 135;

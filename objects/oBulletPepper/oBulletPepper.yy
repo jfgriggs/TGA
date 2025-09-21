@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oBulletPotato",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oBulletPepper",
+  "eventList":[],
   "managed":true,
-  "name":"oBulletPotato",
+  "name":"oBulletPepper",
   "overriddenProperties":[],
   "parent":{
     "name":"Ammo",
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPotato",
-    "path":"sprites/sPotato/sPotato.yy",
+    "name":"sPepper",
+    "path":"sprites/sPepper/sPepper.yy",
   },
   "spriteMaskId":null,
   "visible":true,

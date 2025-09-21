@@ -44,7 +44,7 @@ global.WeaponList = {
 	pumpkin: new create_weapon(
 		sWeaponPumpkin,
 		sprite_get_bbox_right(sWeaponPumpkin) - sprite_get_xoffset(sWeaponPumpkin),
-		oBulletPumpkin,
+		oBulletCarrot,
 		25,
 		1,
 		0
@@ -53,7 +53,7 @@ global.WeaponList = {
 	tomato: new create_weapon(
 		sThrowTomato,
 		sprite_get_bbox_right(sThrowTomato) - sprite_get_xoffset(sThrowTomato),
-		oBulletTomato,
+		oBulletBroccoli,
 		20,
 		1,
 		0
