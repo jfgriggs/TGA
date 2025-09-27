@@ -6,6 +6,9 @@
 	y += yspd;
 
 	// Cleanup
+	if hitConfirm == true && enemyDestroy == true destroy = true;
+
+	// Destroy
 	if destroy == true instance_destroy();
 	
 	// Collision

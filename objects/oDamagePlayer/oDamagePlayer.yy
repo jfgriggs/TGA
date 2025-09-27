@@ -9,7 +9,10 @@
     "name":"Enemies",
     "path":"folders/Enemies.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oDamageParent",
+    "path":"objects/oDamageParent/oDamageParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

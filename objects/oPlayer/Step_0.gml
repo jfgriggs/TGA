@@ -34,6 +34,11 @@ swapKeyPressed = mouse_check_button_pressed(mb_right)
 	depth = -bbox_bottom;
 	
 #endregion	
+
+// Get Damaged
+	get_damaged(oDamagePlayer, true);
+	
+	if hp <= 0 instance_destroy();
 	
 // Player Aiming
 #region

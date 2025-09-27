@@ -9,3 +9,4 @@ rot = 0;
 // Cleanup
 maxDist = 300;
 destroy = false;
+enemyDestroy = false;

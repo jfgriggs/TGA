@@ -5,3 +5,5 @@ event_inherited();
 spd = 2;
 maxDist = 400;
 rot = 135;
+
+enemyDestroy = true;
